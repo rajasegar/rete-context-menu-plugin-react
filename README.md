@@ -1,14 +1,10 @@
-Rete context menu plugin
+Rete context menu plugin - (React only version)
 ====
 #### Rete.js plugin
 
 ```js
 import ContextMenuPlugin, { 
-    VueMenu,
-    VueComponents,
     ReactMenu,
-    ReactComponents,
-    IMenu
 } from 'rete-context-menu-plugin';
 
 editor.use(ContextMenuPlugin, {

@@ -1,7 +1,7 @@
 {
   "name": "rete-context-menu-plugin-react",
   "version": "0.0.7",
-  "description": "",
+  "description": "Rete ContextMenu plugin - React only version",
   "main": "build/context-menu-plugin.common.js",
   "module": "build/context-menu-plugin.esm.js",
   "scripts": {
@@ -23,8 +23,6 @@
   "devDependencies": {
     "@babel/preset-react": "^7.0.0",
     "rete-cli": "^0.6.0",
-    "rollup-plugin-pug": "^0.1.6",
-    "rollup-plugin-sass": "^0.6.1",
-    "rollup-plugin-vue": "^4.3.2"
+    "rollup-plugin-sass": "^0.6.1"
   }
 }
