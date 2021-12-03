@@ -1,11 +1,25 @@
 Rete context menu plugin - (React only version)
 ====
+
+### Install
+
+```
+npm install rete-context-menu-plugin-react
+```
+
+With yarn,
+
+```
+yarn add rete-context-menu-plugin-react
+```
+
+
 #### Rete.js plugin
 
 ```js
 import ContextMenuPlugin, { 
     ReactMenu,
-} from 'rete-context-menu-plugin';
+} from 'rete-context-menu-plugin-react';
 
 editor.use(ContextMenuPlugin, {
     Menu: ReactMenu, // required
