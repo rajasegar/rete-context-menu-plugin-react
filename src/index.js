@@ -1,5 +1,4 @@
 import ReactMenu, * as ReactComponents from "./react-menu";
-import VueMenu, * as VueComponents from "./vue-menu";
 import getMainMenu from "./main-menu";
 import getNodeMenu from "./node-menu";
 import IMenu from "./menu";
@@ -50,7 +49,7 @@ function install(
   });
 }
 
-export { VueMenu, VueComponents, ReactMenu, ReactComponents, IMenu };
+export { ReactMenu, ReactComponents, IMenu };
 
 export default {
   name: "context-menu",
