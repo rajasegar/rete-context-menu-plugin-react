@@ -1,6 +1,6 @@
 {
   "name": "rete-context-menu-plugin-react",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Rete ContextMenu plugin - React only version",
   "main": "build/context-menu-plugin.common.js",
   "module": "build/context-menu-plugin.esm.js",
