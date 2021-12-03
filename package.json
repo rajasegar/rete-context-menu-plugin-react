@@ -1,0 +1,29 @@
+{
+  "name": "rete-context-menu-plugin-react",
+  "version": "0.0.1",
+  "description": "",
+  "main": "build/context-menu-plugin.common.js",
+  "module": "build/context-menu-plugin.esm.js",
+  "scripts": {
+    "build": "rete --build rete.config.js",
+    "build:dev": "rete --build rete.config.js --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "Rajasegar Chandran",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rajasegar/rete-context-menu-plugin-react.git"
+  },
+  "dependencies": {
+    "lodash-es": "4.17.15",
+    "vue": "2.5.17"
+  },
+  "devDependencies": {
+    "rete-cli": "0.5.0",
+    "rollup-plugin-pug": "0.1.6",
+    "rollup-plugin-sass": "0.6.1",
+    "rollup-plugin-vue": "4.3.2",
+    "vue-template-compiler": "2.5.17"
+  }
+}
