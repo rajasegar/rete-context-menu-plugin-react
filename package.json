@@ -17,6 +17,8 @@
   },
   "dependencies": {
     "lodash": "^4.17.11",
+    "react": "npm:@pika/react@16.13.1",
+    "react-dom": "npm:@pika/react-dom@16.13.1",
     "vue": "^2.5.17"
   },
   "devDependencies": {
