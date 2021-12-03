@@ -16,14 +16,17 @@
     "url": "https://github.com/rajasegar/rete-context-menu-plugin-react.git"
   },
   "dependencies": {
-    "lodash-es": "4.17.15",
-    "vue": "2.5.17"
+    "lodash": "^4.17.11",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "vue": "^2.5.17"
   },
   "devDependencies": {
-    "rete-cli": "0.5.0",
-    "rollup-plugin-pug": "0.1.6",
-    "rollup-plugin-sass": "0.6.1",
-    "rollup-plugin-vue": "4.3.2",
-    "vue-template-compiler": "2.5.17"
+    "@babel/preset-react": "^7.0.0",
+    "rete-cli": "^0.6.0",
+    "rollup-plugin-pug": "^0.1.6",
+    "rollup-plugin-sass": "^0.6.1",
+    "rollup-plugin-vue": "^4.3.2",
+    "vue-template-compiler": "^2.5.17"
   }
 }
