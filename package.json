@@ -18,15 +18,13 @@
   "dependencies": {
     "lodash": "^4.17.11",
     "react": "npm:@pika/react@16.13.1",
-    "react-dom": "npm:@pika/react-dom@16.13.1",
-    "vue": "^2.5.17"
+    "react-dom": "npm:@pika/react-dom@16.13.1"
   },
   "devDependencies": {
     "@babel/preset-react": "^7.0.0",
     "rete-cli": "^0.6.0",
     "rollup-plugin-pug": "^0.1.6",
     "rollup-plugin-sass": "^0.6.1",
-    "rollup-plugin-vue": "^4.3.2",
-    "vue-template-compiler": "^2.5.17"
+    "rollup-plugin-vue": "^4.3.2"
   }
 }
